@@ -1,0 +1,13 @@
+{
+  "name": "TailwindCss_Practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Abod",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn tailwindcss -i ./src/input.css -o ./public/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
